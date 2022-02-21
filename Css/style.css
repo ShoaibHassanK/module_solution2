@@ -1,39 +1,64 @@
- 
-      * { box-sizing: border-box; margin: 1px;}
+/* NAVIGATION HEADER */
+.navbar-default {
+  background-color: #784689; border-color:#e7e7e7; 
+}
+.navbar-default .navbar-toggle {
+  border-color: #000;
+}
 
-      h1 { font-size: 44px; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-weight: 400; color: black;}
-      div {width: 100%; background-color: rgb(255, 255, 255); align-content: center;}
-            h3 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                 font-size: 30px; border: 2px solid black; float:right}
-      
-                 #box1h3{ text-align: right; font-size: 30px;width: fit-content; background-color: palevioletred;}
-                 #box2h3 {text-align: right; font-size: 30px; width: fit-content;background-color: rgb(255, 87, 87); color: white; }
-                 #box3h3 { text-align: right; font-size: 30px;width: fit-content; background-color: yellow;}
-      
-      
-            @media screen and (min-width: 992px )
-            {
-             #box1 { width: 30% ; margin-top: 1%; margin-left: 3%; float: left; background-color: gray; border: 4px solid black;}
-             #box2 { width: 30%; margin:1%; float: left;background-color: gray; border: 4px solid black;}
-             #box3 {width: 30%; margin: 1% ;float: left;background-color: gray; border: 4px solid black;}
-            }
-      
-           
-            @media screen and ( max-width: 991px )
-            {
-      
-              #box1 { width: 40% ; margin-top: 2%; margin-left: 4%; float: left;background-color: gray; border: 4px solid black;}
-              #box2 { width: 40%; margin:2%;margin-left: 4%;float: left;background-color: gray; border: 4px solid black;}
-              #box3 {width: 84%; margin:2% ;margin-left: 4%; float: left;background-color: gray; border: 4px solid black;}
-            }
-      
-            @media screen and ( max-width: 767px )
-            {
-      
-              #box1 { width: 94% ; margin: 2%; float: left;background-color: gray; border: 4px solid black;}
-              #box2 { width: 94%; margin:2%; float: left;background-color: gray; border: 4px solid black;}
-              #box3 {width: 94%; margin:2% ;float: left;background-color: gray; border: 4px solid black;}
-            }
-      
-            section {clear: both;}
+.icon-bar { color: #C5A4D0;}
+
+.navbar a.navbar-brand{ color: white; font-size: x-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.container .navbar-header  .nav a { font-size: large; color: white; }
+
+.container .navbar-header a:hover { color: rgb(0, 0, 0) !important;}
+
+.navbar-toggle .icon-bar { background-color: white !important;}
+
+.navbar-toggle .icon-bar:hover {
+  background-color: pink !important;
+}
+.container .navbar-header .visible-xs button:hover {
+  background-color: #000000 !important;
+}
+
+#myNavbar.navbar-collapse.collapse.in         {
+  text-align: center !important;
+  clear: both !important;
+  background: #c5a4d0 !important;}
+
+.container .nav {height: 200px;}
+
+/* NAVIGATION HEADER */
+
+/* Main-Content */
+ .container .Main-content h1 {
+   font: bolder; font-size: xx-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin: 2.5% 0% 4% 0%; 
+  }
+
+  
+
+
+  .container .row h2 {  margin:0%; padding: 0%   ;color:white; font-size: x-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: black;}
+
+  .container .row p {
+    font-size: larger; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 1.5%; margin-bottom: 4.5%; padding-right: 1.5%;
+  }
+  
+    .row #Chicken {
+      background-color: #C5A4D0; 
+    }
+    .row #Beef {
+      background-color: #C5A4D0; 
+    }
+    .row #Sushi {
+      background-color: #C5A4D0;
+    }
+
+   .container .row #Chicken{ padding: 0% !important; }
+   .container .row #Beef  { padding: 0% !important; }
+   .container .row #Sushi { padding: 0% !important; }
+  
+/* Main-Content*/
